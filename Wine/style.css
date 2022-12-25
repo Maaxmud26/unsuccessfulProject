@@ -1,0 +1,499 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    font-family: Open Sans,sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.header-left a:hover{
+    color: #c0a483;
+}
+
+
+.header-right i:hover{
+    cursor: pointer;
+    color: #c0a483;
+}
+.header-top{
+    font-size: 13px;
+    
+}
+.header-right i{
+    padding: 0 15px 0 0;
+    font-size: 15px;
+}
+.mycontainer{
+    padding: 1rem 90px;
+}
+.header-left{
+    display: flex;
+    justify-content: space-between;
+}
+.telephone{
+    margin-right: 35px;
+}
+#t-icon{
+    margin-right: 5px;
+}
+#l-icon{
+    margin-right: 7px;
+}
+hr{
+    opacity: 0.1;
+}
+.logo img{
+    max-height: 22px;
+    width: auto;
+}
+
+.h-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    margin-right: 36rem;
+}
+.navbar a{
+    margin-right: 25px;
+    font-family: Marcellus,serif;
+}
+.navbar a:hover{
+    color: #c0a483;
+}
+.h-bottom i:hover{
+    color: #c0a483;
+}
+#login{
+    font-size: 12px;
+    font-family: Marcellus,serif;
+}
+#login:hover{
+    color: #c0a483;
+}
+.icon i{
+    margin-right: 15px;
+    font-size: 20px;
+    transition: .5s;
+}
+.icon span{
+    position: absolute;
+    background-color:#c0a483;
+    color: #fff;
+   top: -7px;
+  right: -2px;
+  padding: 0 5px 0;
+  border-radius: 100%;
+  font-size: 13px;
+
+}
+.icon {
+    position: relative;
+    
+
+}
+/* .slider{
+   z-index: 0;
+}
+.animation-text{
+   z-index: 222;
+  text-align: center;
+
+} */
+.animation-text1 h1{
+ font-size: 49px;
+    color: #fff;
+    font-family: Marcellus,serif;
+    margin: 200px 0 0 450px;
+    font-family: "Marcellus", Sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    top: 40%;
+    left: 50%;
+    
+
+   
+}
+.icon:hover{
+    cursor: pointer;
+
+}
+.allbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+   
+    text-align: center;
+}
+.animation-img img{
+    position: relative;
+}
+.animation-text{
+    position: absolute;
+}
+
+.content h1{
+    padding-top: 2rem;
+    font-size: 24px;
+    font-family: "Marcellus", Sans-serif;
+    font-weight: 400;
+}
+.content span{
+    color:#c0a483;
+
+}
+.box{
+    position:relative;
+    z-index: 1;
+}
+.box h3{
+    margin: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: Marcellus,serif;
+    padding: 20px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translateX(-50%);
+    z-index: 222;
+   
+}
+.box img{
+    filter: grayscale(0%);
+    z-index: -1;
+    transition: 0.5s;
+    padding: 5px;
+ 
+}
+.box img:hover{
+    filter: grayscale(100%);
+   
+}
+.icon i:hover{
+    transform: translateY(-15%);
+    
+}
+#productscard h3{
+    text-align: center;
+    color: #000000;
+    font-family: "Marcellus", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding-top: 2rem;
+}
+#productscard span{
+    color: #c0a483;
+    
+}
+#productscard{
+    background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/05/banner9.jpg);
+}
+/* .card-all{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+} */
+.cardbox img{
+    width: 100%;
+}
+.cardbox{
+    padding:10px;
+}
+.c-content{
+    text-align: center;
+
+}
+.c-content i{
+    color: #e1e1e1;
+    font-size: 12px;
+    margin-left: 2px;
+}
+.c-content span{
+    color: red;
+    font-size: 12px;
+}
+ #nem{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Marcellus,serif;
+    letter-spacing: .1em;
+    font-weight: 400;
+    opacity: 0.7;
+}
+#nem:hover{
+    color: #c0a483;
+}
+.price{
+    font-size: 16px;
+    color: #c0a483;
+    font-weight: 400;
+    font-family: Marcellus,serif;
+}
+.c-img h5{
+    color: #fff;
+    background-color: #c0a483;
+    font-size: 14px;
+    padding: 4px 15px;
+ position: absolute;
+ right: 10px;
+ top: 5px;
+}
+.c-img{
+    position: relative;
+}
+.c-img i{
+    position: absolute;
+    right: -10%;
+    top: 50%;
+    opacity: 0;
+}
+#shop{
+margin-top: 20px;
+font-size: 17px;
+border: 1px solid rgb(231, 231,231);
+padding: 8px 10px;
+}
+#heart{
+margin-top: 60px;
+border: 1px solid rgb(231, 231,231);
+font-size: 15px;
+padding: 8px 10px;
+}
+#glass{
+margin-top: 100px;
+border: 1px solid rgb(231, 231,231);
+font-size: 15px;
+padding: 8px 10px;
+}
+.cardbox:hover i{
+    transition: .6s;
+    opacity: 1;
+    right: 5%;
+}
+.cardbox{
+    overflow: hidden;
+}
+.c-img i:hover{
+    background-color: #c0a483;
+    color: #fff;
+}
+.con {
+    position: relative;
+}
+.con p{
+    position: absolute;
+    color:#fff;
+    width: 100%;
+    font-size: 30px;
+    font-family: "Marcellus", Sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.image button{
+padding: 12px 30px;
+position: absolute;
+font-size: 14px;
+top: 60%;
+left: 52%;
+background-color:#A12626;
+border: none;
+color: #fff;
+border-radius: 5px;
+transition: .5s;
+font-family: "Marcellus", Sans-serif;   
+    transform: translate(-50%,-50%);
+}
+.image button:hover{
+background-color: #c0a483;
+
+}
+.top-seller .cardbox img{
+    border: 1px solid rgb(231, 231,231);
+    
+}
+.top-seller{
+    padding: 5px;
+}
+.slick-next::before{
+    color: black !important;
+}
+.slick-prev::before{
+    color: black !important;
+}
+
+
+.img-row{
+  
+   text-align: center;
+}
+.all-row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #882424;
+    padding: 3rem;
+}
+.top-img svg{
+    width: 40%;
+    border-radius: 100%;
+    padding: 30px;
+    border: 2px solid white;
+    fill: #FFFFFF;
+
+}
+.buttom-text h1{
+    font-family: "Marcellus", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.buttom-text p{
+    color: #FFFFFF;
+    line-height: 20px;
+}
+.c-content i{
+    color: #882424;
+
+}
+
+.letters{
+    padding: 80px;
+    text-align: center;
+    background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/05/banner10.jpg);
+    background-repeat: no-repeat;
+}
+.letters i{
+    color: #fff;
+    font-size: 60px;
+ margin-bottom: 30px;;
+}
+.text h2{
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-family: Marcellus,serif;
+}
+.text p{
+color: #fff;
+font-family: Marcellus,serif;
+font-size: 16px;
+margin-bottom: 20px;
+
+}
+
+.text input{
+    border:0;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+}
+.text input::placeholder{
+color: #fff;
+line-height: 10px;
+}
+.text #i1{
+    width: 40%;
+    font-family: Marcellus,serif;
+}
+.text #i2{
+    font-family: Marcellus,serif;
+    width: 5%;
+    margin-left: 10px;
+}
+#prcard h3{
+    text-align: center;
+    color: #000000;
+    font-family: "Marcellus", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding-top: 2rem;
+}
+#prcard span{
+    color: #c0a483;
+    
+}
+#prcard-2 h3{
+    text-align: center;
+    color: #000000;
+    font-family: "Marcellus", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding-top: 2rem;
+}
+#prcard-2 span{
+    color: #c0a483;
+    
+}
+#brand h3{
+    text-align: center;
+    color: #000000;
+    font-family: "Marcellus", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding-top: 2rem;
+}
+#brand span{
+    color: #c0a483;
+    
+}
+.item-image a img{
+border: 1px solid #e1e1e1;
+    height: 100%;
+    width: auto;
+    width: 100%;
+    padding: 20px;
+}
+.item-image{
+    width: 20%;
+    height: 150px;
+}
+
+.all-image{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all-image{
+        padding: 10px;
+        display: flex;
+}
+.salam{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 4rem;
+}
+.all-img{
+    display: flex;
+    justify-content: space-between;
+}
+
